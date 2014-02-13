@@ -334,9 +334,14 @@ src: url('foaw/fonts/rescript.woff');
 		.ar7{
 		background-image:url('../images/gallery/nu.png'); !important
 		background-position:center;
-		opacity:0.6;
+		 transition: background-image 0.8s;
+-webkit-transition: background-image 0.8s;
+
 		
-		
+		}
+		.ar7:hover{
+		background-image:url('../images/gallery/tumblr.png') !important;
+			 
 		}
 		/*.ar7:hover{
 		background-image:url('../images/gallery/tum.png') !important;
@@ -399,6 +404,10 @@ src: url('foaw/fonts/rescript.woff');
        -webkit-transition: background-image 0.8s;
 
 		
+		}
+		@font-face {
+		font-family:lobst;
+		src:url('../fonts/lobst.woff');
 		}
 		
 		/*end*/
