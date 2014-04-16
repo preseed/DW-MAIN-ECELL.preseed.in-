@@ -67,6 +67,16 @@
 	width:50%;
 
 }
+
+/*maskeffects*/
+.mask{
+	background-color:#ffffff;
+	   border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+/*maskeffectsend*/
 /*--------------------------------------------------------
 	3.STRUCTURAL 
 --------------------------------------------------------*/
