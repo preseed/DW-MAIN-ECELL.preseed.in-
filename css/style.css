@@ -443,10 +443,10 @@ src: url('foaw/fonts/rescript.woff');
        -webkit-transition: background-image 0.8s;
 	   }
 	   .ar15:hover{
-		background-image:url('../images/gallery/utube.png') !important;
+		background-image:url('../images/gallery/logo-utube.png') !important;
 		}
 			.ar15{
-		background-image:url('../images/gallery/logo-utube.png'); !important
+		background-image:url('../images/gallery/utube.png'); !important
 		background-position:center;
 			transition: background-image 0.8s;
        -webkit-transition: background-image 0.8s;
