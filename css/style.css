@@ -30,7 +30,7 @@
 --------------------------------------------------------*/
 
 
-	body{background:#f4f4f5 url(https://cloud.githubusercontent.com/assets/7721530/3753268/bda7fd70-1810-11e4-8884-fbcd20e642cf.jpg);font:13px/18px Arial, Helvetica, sans-serif;}
+body{background:#f4f4f5 url(https://cloud.githubusercontent.com/assets/7721530/3753268/bda7fd70-1810-11e4-8884-fbcd20e642cf.jpg);font:13px/18px Arial, Helvetica, sans-serif;}
 	
 	 .tooltip{display:inline;position:relative}
  .tooltip:hover:after{
