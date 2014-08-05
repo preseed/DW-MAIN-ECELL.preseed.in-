@@ -1,99 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta charset="utf-8">
+  <title>Media Network</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-
-<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css' />
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
-<link href="foaw/css/fa.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 
-
-    
-    
-
-<title>Media Network</title>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/contact.js"></script>
-<script type="text/javascript" src="js/jquery.ajaxloading.js"></script>
-<script type="text/javascript" src="js/jquery.epicslider.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="js/jquery.tweet.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.js"></script>
-<script type="text/javascript" src="js/jquery.mobile-touch-swipe-1.0.js"></script>
-<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="js/onepage.js"></script>
-<script type="text/javascript" src="js/udt_shortcodes.js"></script>
-<script type="text/javascript" src="js/waypoints.min.js"></script>
-
-<script type="text/javascript">
-
-			var isMobile = false;
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+<style type="text/css">
+body{
+	background: #f4f4f5 url(images/patterns/modern-triangular-light.png) top left repeat; background-attachment:scroll;
+	font:13px/18px Arial, Helvetica, sans-serif; 
+	max-width: 1100px;
+	margin-left: 120px
 	
-			if( navigator.userAgent.match(/Android/i) || 
-				navigator.userAgent.match(/webOS/i) ||
-				navigator.userAgent.match(/iPhone/i) || 
-				navigator.userAgent.match(/iPad/i)|| 
-				navigator.userAgent.match(/iPod/i) || 
-				navigator.userAgent.match(/BlackBerry/i)){
-								
-					isMobile = true;
-							
-			}
-		
-		$(window).load(function() {
-			
-				//call slider
-				$('.epicSlider').epicSlider({
-				
-					loop : false,									//Boolean: whether slideshow should loop or not	
-					slideShow: true,								//Boolean: use slideshow or not
-					autoPlay: true,								//Boolean: autoplay uplon load or not
-					slideShowInterval :4000,						//Integer: slideshow cycling speed, in milliseconds
-					transitionSpeed : 1000,							//Integer: transitions speed, in milliseconds
-					startSlide : 0,									//Integer: starts at 0
-					shuffleSlides:false,							//Boolean: shuffle slides or not
-					easing : 'easeInOutQuint', 						//String: easing method - see http://jqueryui.com/demos/effect/easing.html
-					fx : 'leftToRight',								//String: none, fade, leftToRight, topToBottom 
-					fxmobile : 'leftToRight',						//String: mobile effect -  none, fade, leftToRight, topToBottom 
-					pattern :true									//Boolean: add pattern or not
+	}
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin-bottom:30px;}
+	h1 span, h2 span,h3 span,h4 span,h5 span,h6 span{font-family: 'Quicksand', sans-serif;font-weight:normal;color:#9D9D9D; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { text-decoration:none; border-bottom:0 !important;}
+	h2 span{font-family: 'Open Sans'; font-weight: bold ;color:#9D9D9D; font-size:30px }
+	a{color:#ff005a;text-decoration:none;text-align:center;}
+	a:hover{color:#ff005a;}
+	p{margin-bottom:30px;}
+    p span{color:#9D9D9D; font-family: 'Open Sans';font-weight:normal; margin-bottom:30px; font-style:inherit;}
+	/*section title*/
+	h1{font-size:40px;line-height:40px;}
+	h2{font-size:38px;line-height:38px;}
+	h3{font-size:35px;line-height:35px;}
+	h4{font-size:32px;line-height:42px;}
+	h5{font-size:28px;line-height:28px;}
+	h6{font-size:24px;line-height:24px;}
+.circle{
+	-moz-box-shadow: 0px 0px 0px 5px #9D9D9D;  
+  -webkit-box-shadow: 0px 5px 0px 10px #9D9D9D;  
+ box-shadow: 0px 0px 0px 5px #9D9D9D;
+}
 
-				});	
-				
-				
-			});
-</script>
-    <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="images/ico/favicon.png">
-								       <link href="icons.css" rel="stylesheet">
-								       <link href="css/epicslider.css" rel="stylesheet">
-								       <link href="css/flexslider.css" rel="stylesheet">
-								       <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">
-								       <link href="css/style.css" rel="stylesheet">
-								       <link href="css/udt_media_queries.css" rel="stylesheet">
-								       <link href="css/udt_shortcodes.css" rel="stylesheet">
 
+
+</style>
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/ico/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <body>
-
-
-
-
-<!--start wrapper-->
-	<!--start header-->
-    <div class="header header-main">
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="header header-main">
       <div class="inner">
             <div class="logo-container">
                  <div class="logo">
@@ -102,7 +77,7 @@
            </div>
             
          <!--mobileMenu toggle-->
-        <div class="mobileMenuToggle"><a href="#"></a></div>
+       <div class="mobileMenuToggle"><a href="#"></a></div>
             
          <!--navigation-->
          <ul class="navigation">
@@ -111,212 +86,209 @@
                        <li><a class="navigateTo" href="http://anythinglab.preseed.in/">Anything Lab</a></li>
 					               <li><a class="navigateTo" href="http://patron.preseed.in/">Patron</a></li>
 			<li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" ><!--<img src="images/gallery/me3.png"   width="18px" class="hov"  style="margin-top:40%"/>--></a></li> 
-            <li><a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a></li>
+           <li><a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a></li>
             <li><a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a></li>
             <li><a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"></a></li>
             
- 
-
-
          </ul>
         </div>
-    </div>
-    <!--end header--> 
-      </div>
-        <!--start teaser-->
-         
-        <!--end teaser-->
-    
-    
-     <!--start page 2-->
-     <div id="Media-Network" class="page odd section">
-        
-        
-        <!--start p2 content-->
-        <div class="content clearfix">
-            
-            <!--section title-->
-            <div class="section-title">
-              <div class="teaser">
-               <br><br><br><br><br><br><br><br>
-          		 <h1 style="line-height:100%; font-size:90px"><span><strong>PRESEED</strong></span> <strong>MEDIA NETWORK</strong></h1>
-                 <h6><span><OUR ONLINE CONTENT CURATION CHANNELS</span></h6>
-                  <br><br><br><br><br><br><br>
-                 <center>
-   <a href="#folio-grid"> <img style="opacity:0.5;" src="images/gallery/arrowdown.png"/></a>
-   </center>
+    </div>         
             </div>
-            </div>
-            <!--end section title-->
-            
-            <!--start ajax content area-->
-            <div id="ajaxwrapper">
-                
-              <!--start project menu--> 
-              <div id="folio-navigation">
-                  <ul>
-                      <li id="prevProject"><a href="#"></a></li>
-                      <li id="closeProjectMobile"><a href="#"></a></li>
-                      <li id="nextProject"><a href="#"></a></li>
-                   </ul>  
-               </div>
-               <!--end project menu--> 
-                
-               <!--project-close-button-->
-               <div id="closeProject">
-               		<a href="#Media-Network"></a>               
-               </div>  
-                 
-               <!--start loader-->
-               <div id="loader"></div>
-                     
-               <!--start content-->
-               <div id="ajax-content-outer">
-               		<div id="ajax-content-inner"></div>
-               </div>
-               <!--end content-->
-          	 </div>
-    		<!--end ajax content area-->
+          </div>
+        </div>
 
-             
-   			 <!--start grid-->
-			 
-       		 <div id="folio-grid">
-			 <div class="folio-thumb-container"> <div class="folio-thumb ar2"><a href="https://medium.com/@Nishchal/collections" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Words</h5><h6><span>Here we write our first quick drafts of some things that matter to us.</span></h6></center></div>
-			  <div class="folio-thumb-container"> <div class="folio-thumb ar6"><a href="http://blog.preseed.in/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Scribbles</h5><h6><span>
-This is where we share with you what resonates with Preseed from the best of the web.</span></h6></center></div>
-	  <div class="folio-thumb-container"> <div class="folio-thumb ar1"><a href="http://www.facebook.com/startupposts" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Startup Posts</h5><h6><span>News/ Media about cutting edge Startup’s and tips from our favorite Entrepreneurs.</span></h6></center>
-</div>
-			  <div class="folio-thumb-container"><div class="folio-thumb ar"><a href="http://www.facebook.com/preseedify" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Preseedify</h5><h6><span>Our counter cultured publishing for the crazy ones. &#60ART&#62; &#60CULTURE&#62;&#60CRAZY&#62;&#60TRUTH&#62</span></h6></center></div> 
-		
+	
+		<div class="row clearfix">
+		<div class="col-md-12 column">
+			<br><br><br><br><br><br>
+				 <h1 class="text-center" style="line-height:100%; font-size:90px"><span><strong>PRESEED</strong></span> <strong>MEDIA NETWORK</strong></h1>
+			<br><br><br>
+            <hr style="width:800px">
+			<br><br><br><br><br>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-3 column nopadding">
+			<a href="https://medium.com/@Nishchal/collections" target="_blank" title=""><img alt="medium" src="images/gallery/nisc.jpg" class="img-circle img-responsive circle"></a>
+              <br>
+			<h2 class="text-center">
+				<span>Our Words</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Here we write our first quick drafts of some things that matter to us.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column no padding">
+			<a href="http://blog.preseed.in/" target="_blank" title=""><img alt="140x140" src="images/gallery/re.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Our Scribbles</span>
+			</h2>
+			<p class="lead text-center">
+				<span>This is where we share with you what resonates with Preseed from the best of the web.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column nopadding">
+			<a href="http://www.facebook.com/startupposts" target="_blank" title=""><img alt="140x140" src="images/gallery/posts.jpg" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Startup Posts</span>
+			</h2>
+			<p class="lead text-center">
+				<span>News/ Media about cutting edge Startup’s and tips from our favorite Entrepreneurs.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column nopadding">
+			<a href="http://www.facebook.com/preseedify" target="_blank" title=""><img alt="140x140" src="images/gallery/preseedify.jpg" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Preseedify</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Our counter cultured publishing for the crazy ones. &#60ART&#62; &#60CULTURE&#62;&#60CRAZY&#62;&#60TRUTH&#62</span>
+			</p>
+			<br><br><br>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+			<a href="http://www.pinterest.com/thepreseed/" target="_blank" title=""><img alt="140x140" src="images/gallery/sightings.jpg" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+
+				<span>Our Sightings</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Here is a visual representation of a lot of what we love.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="https://www.readability.com/nishchalkesarwani/" target="_blank" title=""><img alt="140x140" src="images/gallery/nic.jpg" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Digest</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Our profound Breakfast, Lunch, and Dinner reading for the curious ones.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://nowordfuck.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/kippt.jpg" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Collection and Lists</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Some of the content we curate gets collected in the lists here.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://nowordfuck.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/fcuk.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>No Word Fuck</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Our tumblr blog only about quotes that are still not cliche.</span>
+			</p>
+			<br><br><br>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+			<a href="https://soundcloud.com/nishchal-kesarwani/sets" target="_blank" title=""><img alt="140x140" src="images/gallery/cloud.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>Our Sounds</span>
+			</h2>
+			<p class="lead text-center">
+			<span>Our music curation on sound cloud.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://moregeekdom.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/geek.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>More Geekdom</span>
+			</h2>
+			<p class="lead text-center">
+				<span>The geek load we find on tumblr goes here.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://www.ted.com/profiles/1160587/talks" target="_blank" title=""><img alt="140x140" src="images/gallery/teda.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>resonaTED</span>
+			</h2>
+			<p class="lead text-center">
+				<span>The TED talks we say you must hear.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://seedontjudge.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/nu.png" class="img-circle img-responsive circle"></a>
+			<br>
+			<h2 class="text-center">
+				<span>See don't judge</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Our tumblr 'picture only' blog about the aesthetics surrounding us humans.
+Warning: Adult content inside for the shy types.</span>
+			</p>
+			<br><br><br>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+			<a href="http://www.slideshare.net/nishchalkesarwani1/favorites" target="_blank" title=""><img alt="140x140" src="images/gallery/ss.png" class="img-circle img-responsive circle"></a>
+			<br> 
+			<br>
+			<h2 class="text-center">
+				<span>Slides</span>
+			</h2>
+			<p class="lead text-center">
+				<span>The slides we like on slide deck are curated here.</span>
+			</p>
+			<br><br><br>
+		</div>
+		<div class="col-md-3 column">
+			<a href="http://vimeo.com/user20451223/likes" target="_blank" title=""><img alt="140x140" src="images/gallery/vid.png" class="img-circle img-responsive circle"></a>
+		</br>
+			<br>
+			<h2 class="text-center">
+				<span>Our Videos</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Videos which we like get listed here.</span>
+			</p>
+			<br><br><br>
 			</div>
-			  
-			  
-			  
-			  
-			   <div id="folio-grid">
-			    <div class="folio-thumb-container"> <div class="folio-thumb ar8"><a href="http://www.pinterest.com/thepreseed/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Sightings</h5><h6><span>
-Here is a visual representation of a lot of what we love.</span></h6></center></div>
-			     <div class="folio-thumb-container"> <div class="folio-thumb ar5"><a href="https://www.readability.com/nishchalkesarwani/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Digest</h5><h6><span>
+		
+		<div class="col-md-3 column">
+			<a href="https://www.youtube.com/user/nishchalkesarwani" target="_blank" title=""><img alt="140x140" src="images/gallery/utube.png" class="img-circle img-responsive circle"></a>
+		</br>
+			<br>
+			<h2 class="text-center">
+				<span>Our Broadcast</span>
+			</h2>
+			<p class="lead text-center">
+				<span>Here we spread our counter culture to people with similar itch.</span>
+			</p>
+			<br><br><br>
+			</div>
 
-Our profound Breakfast, Lunch, and Dinner reading for the curious ones. </span></h6></center></div>
-			    <div class="folio-thumb-container"><div class="folio-thumb ar4"><a href="https://kippt.com/Nishchal" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Collection & Lists</h5><h6><span>Some of the content we curate gets collected in the lists here.</span></h6></center> </div>
-				
-				     <div class="folio-thumb-container"> <div class="folio-thumb ar3"><a href="http://nowordfuck.tumblr.com/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>No Word Fuck</h5><h6><span>Our tumblr blog only about quotes that are still not cliche.</span></h6></center></div>
-			   
- 
-			     
-              
-				
-			  
+		<div class="col-md-3 column">
+		</div>
+	</div>
 </div>
-<div id="folio-grid">
-<div class="folio-thumb-container"> <div class="folio-thumb ar9"><a href="https://soundcloud.com/nishchal-kesarwani/sets" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Sounds</h5><h6><span>Our music curation on sound cloud.</span></h6></center></div>
-<div class="folio-thumb-container"> <div class="folio-thumb ar12"><a href="http://moregeekdom.tumblr.com/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>More Geekdom</h5><h6><span>The geek load we find on tumblr goes here.</span></h6></center></div>
-
-<div class="folio-thumb-container"> <div class="folio-thumb ar11"><a href="http://www.ted.com/profiles/1160587/talks" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>resonaTED</h5><h6><span>The TED talks we say you must hear.</span></h6></center></div>
-
-
-<div class="folio-thumb-container"> <div class="folio-thumb ar7"><a href="http://seedontjudge.tumblr.com/" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>See don't judge</h5><h6><span>Our tumblr 'picture only' blog about the aesthetics surrounding us humans. 
-Warning: Adult content inside for the shy types.</span></h6></center></div>
-</div>
- <div id="folio-grid">
-<div class="folio-thumb-container"> <div class="folio-thumb ar13"><a href="http://www.slideshare.net/nishchalkesarwani1/favorites" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Slides</h5><h6><span>The slides we like on slide deck are curated here.</span></h6></center></div>
-<div class="folio-thumb-container"> <div class="folio-thumb ar14"><a href="http://vimeo.com/user20451223/likes" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Videos</h5><h6><span>Videos which we like get listed here.</span></h6></center></div>
-<div class="folio-thumb-container"> <div class="folio-thumb ar15"><a href="https://www.youtube.com/user/nishchalkesarwani" target="_blank" title=""><img class="lazy" src="" alt=""/></a></div><br/><center><h5>Our Broadcast</h5><h6><span> Here we spread our counter culture to people with similar itch.</span></h6></center></div>
-
-</div>
-
-</div>
-
-
- <center><h5 style="line-height:1.5;color:#000000"><span>To stay tuned to the information we experience, you must follow here what you must.<br/> We assure you that not only will you feel entertained and informed,<br/> your taste of content may start resonating with ours.</span></h5></center>
-   	   <br/><br/><br/><br/>
-       <!--mailchimpsubscribe
-       <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-
-<div id="mc_embed_signup">
-<form action="http://preseed.us3.list-manage1.com/subscribe/post?u=6d760d307e7d9e29e2344532b&amp;id=96647ebc16" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-
-
-<form class="form-inline" role="form">
-  <div class="input-group col-xs-4" style="margin-left:40%;margin-right:0; display:inline-block; float:left">
-
-<input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter your EMAIL-ID" style="display:inline;float:left">
-     <button type="submit" class="btn btn-default btn-info" style="display:inline;">Subscribe</button>
-  </div>
-</form>
-
-</div>
-<br/><br/><br/><br/><br/><br/>
-       subscribecodeends-->
-    
-
-
-
-	   </div>
-
-   	 
-       <!--end p2 content-->
-        
-        
-    
-	<!--end page 2--> 
-	
-     
-    
-   
-    
-       <!--     <p align="center"><span class="btn btn-large btn-primary custombtn patronizebtn"><a title="Facebook" href="https://www.facebook.com/messages/thepreseed" target="_blank" data-icon="&#xe002;" style="color:#FFFFFF; font-size:20px; padding:35px;">&nbsp;  Message</a></span></p>
-			    <p align="center"><span class="btn btn-large btn-primary custombtn patronizebtn"><a title="Twitter" href="https://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="color:#FFFFFF; font-size:20px; padding:15px;">&nbsp @thepreseed</a></span></p>-->
-			
-            
-<div>
-       <!--<center><a href="http://preseed.us8.list-manage2.com/subscribe?u=8d28ba8a8bc00bd59a96501f8&id=a70286829c"> <button type="button" class="btn btn-default">Subscribe</button></a></center>         
- </div>    -->
-
-					<center><a  target="_blank" href="http://eepurl.com/QSN4X"> <button type="button" class="btn btn-large">I do not want to miss any updates</button></a></center>
-	 <br> <br>
-	   <!--end p3 content-->
-     </div> 
-        
-       
-	
-    
-    
-   
-</div>
-<!--end wrapper-->   
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1930971-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var $_Tawk_API={},$_Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/53bb002a488d9fc54f00015b/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
-
 </body>
 </html>
