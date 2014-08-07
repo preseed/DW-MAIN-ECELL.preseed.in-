@@ -32,6 +32,13 @@
 <script type="text/javascript" src="js/onepage.js"></script>
 <script type="text/javascript" src="js/udt_shortcodes.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <script type="text/javascript">
 
@@ -88,7 +95,23 @@
 
 <body>
 
+ <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{your-app-id}',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
 
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
 <!--start wrapper-->
@@ -113,7 +136,7 @@
                        <li><a class="navigateTo" href="#We-Are">We Are</a></li>
 
             <li><a class="navigateTo" href="#Media-Network">Media Network</a></li>
-            <li><a class="navigateTo" href="#Patron">Patron</a></li>
+            <li><a class="navigateTo" href="#Patron">Support Us</a></li>
 			<li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" ><!--<img src="images/gallery/me3.png"   width="18px" class="hov"  style="margin-top:40%"/>--></a></li> 
             <li><a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a></li>
             <li><a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a></li>
@@ -238,7 +261,7 @@
 
                         </div>
                         <div class="text-center">
-                        <center><h3><a href="https://medium.com/preseed-so-far" style="font-family: arial;color:#474747" target="_blank">Preseed Story So Far</a></h3></center>
+                        <center><h3><a href="https://medium.com/the-preseed/highlight-2014-our-strong-foundation-b6276a335c1e" style="font-family: arial;color: #F09" target="_blank">Preseed Story So Far</a></h3></center>
                         </div>
  
 
@@ -488,6 +511,56 @@ Warning: Adult content inside for the shy types.</span></h6></center></div>
                     	   
         <!--end p3 content-->
      </div> 
+        
+        <div id="contact" class="page even section">
+         <div class="content clearfix">
+        
+        	 <!--section title-->
+            <div class="section-title">
+          		 <h3>SHARE <span>US</span></h3>
+          		 <h6>Your share or tweet is what will help us reach out to those whose lives we can touch.  <span>Tweet about us and f share. </span></h6>
+
+          		 <br/>
+          		          
+            </div>
+       <!--     <p align="center"><span class="btn btn-large btn-primary custombtn patronizebtn"><a title="Facebook" href="https://www.facebook.com/messages/thepreseed" target="_blank" data-icon="&#xe002;" style="color:#FFFFFF; font-size:20px; padding:35px;">&nbsp;  Message</a></span></p>
+			    <p align="center"><span class="btn btn-large btn-primary custombtn patronizebtn"><a title="Twitter" href="https://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="color:#FFFFFF; font-size:20px; padding:15px;">&nbsp @thepreseed</a></span></p>-->
+			<!--	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+<div class="fb-like" href="https://www.facebook.com/thepreseed" layout="standard" action="recommend" data-show-faces="false" data-share="true"></div> -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=YOUR_APP_ID"; // appId must be valid
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<fb:share-button type="box_count">
+</fb:share-button>
+						
+                        <a title="Twitter" href="https://twitter.com/share" data-url="https://twitter.com/thePreseed"  data-count="none" target="_blank" style="color:#ffffff; "><center><button class="btn btn-twitter btn-large btn-succe" style="padding-right:0px;padding-left:0px"><i class="fa fa-twitter"></i>&nbsp &nbspshare@thepreseed</button></center></a>
+                        
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://://platform.twitter.com/widgets.js';fjs.parentNode...;}}(document, 'script', 'twitter-wjs');</script>
+				
+						
+				<br/><br/><br/>
+				<br/>
+            <center>
+                <!--  <h5 style="text-align:center;"><span>'COZ CONTACT FORMS ARE SO 1990s</span></h5> -->  </center>   
+
+        </div>
+
+                
+                    	   
+        <!--end p3 content-->
+     </div>
         
         <!--start teaser-->
          <div id="Patron" class="teaser section page" style="background-image: url(images/gallery/teaser-3.jpg);">
