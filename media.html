@@ -61,6 +61,19 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 		}
 }
 
+	 #im{
+	 	box-sizing:border-box;
+	 	-webkit-box-shadow: 0 0 1px 1px #5F9EA0 inset;
+	 	box-shadow: 0 0 1px 1px #5F9EA0 inset;
+	 	border: 4px dashed #5F9EA0;
+	 	-webkit-transition: all 500ms;
+	 	-o-transition: all 500ms;
+	 	transition: all 500ms;
+	 }
+	 #im:hover{
+	 	border: 40px solid #5F9EA0;
+	 }
+
 </style>
   <!-- Fav and touch icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
@@ -91,14 +104,30 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
             
          <!--navigation-->
          <ul class="navigation">
-         	<li><a class="navigateTo" href="http://preseed.in/">Home</a></li>
-            <li><a class="navigateTo" href="http://weblab.preseed.in/">Web Lab</a></li>
-                       <li><a class="navigateTo" href="http://anythinglab.preseed.in/">Anything Lab</a></li>
-					               <li><a class="navigateTo" href="http://patron.preseed.in/">Patron</a></li>
-			<li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" ><!--<img src="images/gallery/me3.png"   width="18px" class="hov"  style="margin-top:40%"/>--></a></li> 
-           <li><a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a></li>
-            <li><a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a></li>
-            <li><a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"></a></li>
+         	<li>
+         		<a class="navigateTo" href="http://preseed.in/">Home</a>
+         	</li>
+            <li>
+            	<a class="navigateTo" href="http://weblab.preseed.in/">Web Lab</a>
+            </li>
+            <li>
+            	<a class="navigateTo" href="http://anythinglab.preseed.in/">Anything Lab</a>
+            </li>
+			<li>
+				<a class="navigateTo" href="http://patron.preseed.in/">Patron</a>
+			</li>
+			<li class="hov">
+				<a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank" ><!--<img src="images/gallery/me3.png" width="18px" class="hov"  style="margin-top:40%"/>--></a>
+			</li> 
+           <li>
+           		<a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a>
+           </li>
+            <li>
+            	<a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a>
+            </li>
+            <li>
+            	<a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"></a>
+            </li>
             
          </ul>
         </div>
@@ -118,7 +147,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-3 column nopadding">
-			<a href="https://medium.com/@Nishchal/collections" target="_blank" title=""><img alt="medium" src="images/gallery/nisc.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="https://medium.com/@Nishchal/collections" target="_blank" title=""><img id="im" alt="medium" src="images/gallery/nisc.jpg" class="img-circle img-responsive circle center-block"></a>
               <br>
 			<h2 class="text-center">
 				<span>Our Words</span>
@@ -129,7 +158,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column no padding">
-			<a href="http://blog.preseed.in/" target="_blank" title=""><img alt="140x140" src="images/gallery/re.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://blog.preseed.in/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/re.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Our Scribbles</span>
@@ -140,7 +169,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column nopadding">
-			<a href="http://www.facebook.com/startupposts" target="_blank" title=""><img alt="140x140" src="images/gallery/posts.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://www.facebook.com/startupposts" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/posts.jpg" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Startup Posts</span>
@@ -151,7 +180,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column nopadding">
-			<a href="http://www.facebook.com/preseedify" target="_blank" title=""><img alt="140x140" src="images/gallery/preseedify.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://www.facebook.com/preseedify" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/preseedify.jpg" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Preseedify</span>
@@ -164,7 +193,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<a href="http://nowordfuck.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/fcuk.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://nowordfuck.tumblr.com/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/fcuk.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>No Word Fuck</span>
@@ -176,7 +205,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 		</div>
 		
 		<div class="col-md-3 column">
-			<a href="https://www.readability.com/nishchalkesarwani/" target="_blank" title=""><img alt="140x140" src="images/gallery/nic.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="https://www.readability.com/nishchalkesarwani/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/nic.jpg" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Digest</span>
@@ -187,7 +216,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column">
-			<a href="https://kippt.com/Nishchal" target="_blank" title=""><img alt="140x140" src="images/gallery/kippt.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="https://kippt.com/Nishchal" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/kippt.jpg" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Collection and Lists</span>
@@ -198,7 +227,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column">
-			<a href="https://www.youtube.com/user/nishchalkesarwani" target="_blank" title=""><img alt="140x140" src="images/gallery/utube.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="https://www.youtube.com/user/nishchalkesarwani" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/utube.png" class="img-circle img-responsive circle center-block"></a>
 		</br>
 			<br>
 			<h2 class="text-center">
@@ -213,7 +242,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<a href="https://soundcloud.com/nishchal-kesarwani/sets" target="_blank" title=""><img alt="140x140" src="images/gallery/cloud.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="https://soundcloud.com/nishchal-kesarwani/sets" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/cloud.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>Our Sounds</span>
@@ -224,7 +253,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column">
-			<a href="http://www.pinterest.com/thepreseed/" target="_blank" title=""><img alt="140x140" src="images/gallery/sightings.jpg" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://www.pinterest.com/thepreseed/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/sightings.jpg" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 
@@ -237,7 +266,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 		</div>
 		
 		<div class="col-md-3 column">
-			<a href="http://www.ted.com/profiles/1160587/talks" target="_blank" title=""><img alt="140x140" src="images/gallery/teda.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://www.ted.com/profiles/1160587/talks" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/teda.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>resonaTED</span>
@@ -248,7 +277,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column">
-			<a href="http://seedontjudge.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/nu.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://seedontjudge.tumblr.com/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/nu.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>See don't judge</span>
@@ -262,7 +291,7 @@ Warning: Adult content inside for the shy types.</span>
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<a href="http://www.slideshare.net/nishchalkesarwani1/favorites" target="_blank" title=""><img alt="140x140" src="images/gallery/ss.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://www.slideshare.net/nishchalkesarwani1/favorites" target="_blank" title=""><img alt="140x140" id="im" src="images/gallery/ss.png" class="img-circle img-responsive circle center-block"></a>
 			<br> 
 			<br>
 			<h2 class="text-center">
@@ -274,7 +303,7 @@ Warning: Adult content inside for the shy types.</span>
 			<br><br><br>
 		</div>
 		<div class="col-md-3 column">
-			<a href="http://vimeo.com/user20451223/likes" target="_blank" title=""><img alt="140x140" src="images/gallery/vid.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://vimeo.com/user20451223/likes" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/vid.png" class="img-circle img-responsive circle center-block"></a>
 		</br>
 			<br>
 			<h2 class="text-center">
@@ -286,7 +315,7 @@ Warning: Adult content inside for the shy types.</span>
 			<br><br><br>
 			</div>
 		<div class="col-md-3 column">
-			<a href="http://moregeekdom.tumblr.com/" target="_blank" title=""><img alt="140x140" src="images/gallery/geek.png" class="img-circle img-responsive circle center-block"></a>
+			<a href="http://moregeekdom.tumblr.com/" target="_blank" title=""><img id="im" alt="140x140" src="images/gallery/geek.png" class="img-circle img-responsive circle center-block"></a>
 			<br>
 			<h2 class="text-center">
 				<span>More Geekdom</span>
