@@ -137,7 +137,7 @@ src: url('foaw/fonts/rescript.woff');
 		.teaser{width:100%;height:500px; padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
 		.teaser.fixed{background-attachment:fixed !important;}
 		.teaser .teaser-title{display:table;width:100%;height:100%; padding:0 !important;;margin:0 !important;background:transparent url(../images/ui_epicslider/pattern.png) repeat top left;}
-		.teaser-title h4,.teaser-title h6{display: table-cell; vertical-align:middle; color:#fff !important;}
+		.teaser-title h4,.teaser-title h6{display: block; vertical-align:middle; color:#fff !important;}
 		
 		/*teaser-clients*/
 		
@@ -429,12 +429,12 @@ src: url('foaw/fonts/rescript.woff');
 .page.even .section-title h3 span,.page.even .section-title h6 span{color:#666;}
 /*Custom css*/
 .patronizebtn{
-		font-size:38px !important ;
+		font-size:38px;
 		padding:20px ;
 		
 		}
 		.patronizetext{
-		font-size:15px !important;
+		font-size:15px;
 		}
 		.btn {
   display: inline-block;
