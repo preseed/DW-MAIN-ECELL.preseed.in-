@@ -186,6 +186,7 @@ $text: '';
         }
     }
     .links{
+        margin-top: 10px;
         float: none;
         a {
             text-decoration: none;
@@ -205,6 +206,17 @@ $text: '';
         span:last-child {
             color: #ffffff;
             cursor: text;
+        }
+        img {
+            &:first-child {
+                margin-right: 5px;
+            }
+            &:last-child {
+                margin-left: 5px;
+            }
+            &:hover {
+                opacity: .5;
+            }
         }
     }
 }
@@ -236,6 +248,12 @@ $text: '';
                 border-radius: 0;
                 width: 25px;
                 border: none;
+                &:nth-child(1){
+                    margin-right: 5px;
+                }
+                &:nth-child(2){
+                    margin-left: 5px;
+                }
                 &:hover{
                     opacity: .5;
                 }
