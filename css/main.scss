@@ -408,7 +408,78 @@ hr {
 }
 
 .section-3 {
-    @include grid;    
+    @include head;
+    .headings {
+        margin-top: 20px;
+    }
+    .team-members {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .member {
+            margin: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+            width: 180px;
+            height: 275px;
+            font-family: 'Quicksand',sans-serif;
+            img {
+                border-radius: 50%;
+                border: 2px solid rgba(255, 255, 255, .5);
+            }
+            div {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                img {
+                    border: none;
+                    border-radius: 0;
+                }
+                &:nth-child(3){
+                    color: #ffffff;
+                }
+            }
+            .name {
+                color: $pink;
+                font-weight: bold;
+            }
+            a {
+                text-decoration: none;
+                img {
+                    border-radius: 0;
+                    width: 25px;
+                    border: none;
+                    &:nth-child(1){
+                        margin-right: 5px;
+                    }
+                    &:nth-child(2){
+                        margin-left: 5px;
+                    }
+                    &:hover{
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+        // .member {
+        //     display: flex;
+        //     overflow: hidden;
+        //     flex-direction: row;
+        //     img {
+        //         display: block;
+        //         width: 170px;
+        //         height: 170px;
+        //     }
+        //     div {
+        //         display: block;
+        //         img {
+        //             width: 100%;
+        //             height: auto;
+        //         }
+        //     }
+        // }
+    }    
 }
 
 .section-4 {
