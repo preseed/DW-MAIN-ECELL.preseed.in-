@@ -485,8 +485,9 @@ hr {
 .section-4 {
     @include grid;
     #brief-descritpion{
+        margin-top: -50px;
         color: #ffffff;
-        text-align: center;
+        text-align: left;
         font-size: .75em;
         margin-bottom: 40px;
         @include medmn(376px){
@@ -548,6 +549,10 @@ hr {
     display: block;
     margin: 0 auto 40px;
     text-align: center;
+    h3 {
+        font-family: 'Quicksand', sans-serif;
+        color: $pink;
+    }
     a {
         text-decoration: none;
         color: #ffffff;
