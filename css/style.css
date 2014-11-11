@@ -1325,6 +1325,19 @@ padding: 0px 3px;
 font-size:26px;
 color:#000000 !important;
 }
+
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+    background: url(../imgages/gallery/bkimg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 		
 		
 /*--------------------------------------------------------
