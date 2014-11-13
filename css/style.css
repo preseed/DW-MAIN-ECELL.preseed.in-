@@ -92,7 +92,7 @@ body{
 	.homepage,.page{position:relative;overflow:hidden; z-index:1;}
 	.page.desktop{position:relative !important; z-index:6;}
 	.page{padding-top:80px;}
-		.page .content{max-width:930px;margin:auto;position:relative; padding-bottom:20px;}
+		.page .content{max-width:930px;margin:auto;position:relative; padding-bottom:5px;}
 	.page.odd{background:#f4f4f5 url(../images/patterns/modern-triangular-light.png) top left repeat; background-attachment:scroll;}
 	.page.even{background:#111 url(../images/patterns/modern-triangular-dark.png) top left repeat; background-attachment:scroll;padding-bottom:0px;}
 	
