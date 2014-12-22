@@ -307,6 +307,12 @@ src: url('foaw/fonts/rescript.woff');
 
 	
 	/*even*/
+	footer{
+	background:black !important;
+	height:auto;
+	
+	}
+	
 	
 	
 	/*section buttons
