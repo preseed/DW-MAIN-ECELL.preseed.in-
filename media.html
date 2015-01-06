@@ -16,6 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css' />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style-cleaned.css" rel="stylesheet">
+	 <link href="icons.css" rel="stylesheet" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -151,6 +152,75 @@
 </head>
 
 <body>
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=567797739996281&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="text/javascript">
+window.twttr = (function (d, s, id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src= "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+</script>
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1453247728270397&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script type="text/javascript">
+    var isMobile = false;
+
+    if (navigator.userAgent.match(/Android/i) ||
+        navigator.userAgent.match(/webOS/i) ||
+        navigator.userAgent.match(/iPhone/i) ||
+        navigator.userAgent.match(/iPad/i) ||
+        navigator.userAgent.match(/iPod/i) ||
+        navigator.userAgent.match(/BlackBerry/i)) {
+
+        isMobile = true;
+
+    }
+
+    $(window).load(function() {
+
+        //call slider
+        $('.epicSlider').epicSlider({
+
+            loop: false, //Boolean: whether slideshow should loop or not 
+            slideShow: true, //Boolean: use slideshow or not
+            autoPlay: true, //Boolean: autoplay uplon load or not
+            slideShowInterval: 4000, //Integer: slideshow cycling speed, in milliseconds
+            transitionSpeed: 1000, //Integer: transitions speed, in milliseconds
+            startSlide: 0, //Integer: starts at 0
+            shuffleSlides: false, //Boolean: shuffle slides or not
+            easing: 'easeInOutQuint', //String: easing method - see http://jqueryui.com/demos/effect/easing.html
+            fx: 'leftToRight', //String: none, fade, leftToRight, topToBottom 
+            fxmobile: 'leftToRight', //String: mobile effect -  none, fade, leftToRight, topToBottom 
+            pattern: true //Boolean: add pattern or not
+
+        });
+
+
+    });
+    </script> -->
+
+   
+
     <div class="container">
         <div class="row clearfix">
             <div class="col-md-12 column">
@@ -183,18 +253,17 @@
                             <li>
                                 <a class="navigateTo" href="http://patron.preseed.in/">Patron</a>
                             </li>
-                            <li class="hov">
-                                <a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank"><!--<img src="images/gallery/me3.png" width="18px" class="hov"  style="margin-top:40%"/>--></a>
-                            </li>
-                            <li>
-                                <a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a>
-                            </li>
-                            <li>
-                                <a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a>
-                            </li>
-                            <li>
-                                <a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"></a>
-                            </li>
+                            <li class="hov"><a title="Medium" href="https://medium.com/@Nishchal/collections" target="_blank"><!--<img src="images/gallery/me3.png"   width="18px" class="hov"  style="margin-top:40%"/>--></a>
+                    </li>
+                    <li>
+                        <a title="Tumblr" href="http://blog.preseed.in" target="_blank" data-icon="&#xe004;" style="font-size:16px;"></a>
+                    </li>
+                    <li>
+                        <a title="Facebook" href="http://www.facebook.com/thepreseed" target="_blank" data-icon="&#xe002;" style="font-size:16px;"></a>
+                    </li>
+                    <li>
+                        <a title="Twitter" href="http://twitter.com/thepreseed" target="_blank" data-icon="&#xe003;" style="font-size:16px;"></a>
+                    </li>
 
                         </ul>
                     </div>
