@@ -160,10 +160,11 @@ src: url('foaw/fonts/rescript.woff');
 		.hov {
 		background-image:url('../images/gallery/me6.png');
 		background-repeat:no-repeat;
-		margin-left:6px;
-		margin-right:6px;
-		margin-top:-0.2%;
-		background-position:center;
+		margin-left:17px;
+		margin-right:5px;
+		margin-top:17px;
+	
+		
 		}
 		.hov:hover {
 		background-image:url('../images/gallery/me5.png');
