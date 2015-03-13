@@ -1,0 +1,123 @@
+@media only screen and (max-width:769px)
+{
+
+	.footerr{
+	width:98% !important;
+	
+	
+	}
+	
+	.footerr a{
+	font-size:10px;
+	}
+
+	#leftfooter a{
+	font-size:10px !important;
+	
+	}
+	
+	#rightfooter a {
+	font-size:10px !important;
+	
+	}
+	
+	#rightfooter p{
+	font-size:10px !important;
+	
+	}
+	
+	#leftfooter{
+	width:30% !important ;
+	
+	float:left;
+	}
+	
+	#rightfooter{
+	width:42% !important ;
+	float:right !important;
+
+
+
+	}
+
+
+
+}
+
+
+@media only screen and (max-width:1025px)
+{
+
+	.footerr{
+	width:98% !important;
+	
+	
+	}
+	
+	.footerr a{
+	font-size:12px;
+	}
+
+	#leftfooter a{
+	font-size:12px !important;
+	
+	}
+	
+	#rightfooter a {
+	font-size:12px !important;
+	
+	}
+	
+	#rightfooter p{
+	font-size:12px !important;
+	
+	}
+	
+	#leftfooter{
+	width:30% !important ;
+	
+	float:left;
+	}
+	
+	#rightfooter{
+	width:42% !important ;
+	float:right !important;
+
+
+
+	}
+
+
+
+}
+
+
+	.footerr{
+	background:black fixed !important;
+	height:auto;
+	padding-left:4%;
+	padding-top:1%;
+	padding-bottom:2%;
+	line-height:1.5;
+	
+	}
+
+	#leftfooter{
+	width:30%  ;
+	padding-left:10% !important;
+	float:left;
+	}
+	
+	#rightfooter{
+	width:25% ;
+	float:right !important;
+	font-size:14px;
+	
+
+	float:left;
+	}
+
+
+	
+
+
