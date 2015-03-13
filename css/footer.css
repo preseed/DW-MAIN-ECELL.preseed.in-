@@ -16,6 +16,11 @@
 	background:url('images/gallery/hippies1.png') no-repeat center center noscroll !important;
 	}
 	
+	.teaser.section.page.desktop.fixed{
+	
+	background:url('images/gallery/openhack1.png') no-repeat center center scroll !important;
+	}
+	
 	#leftfooter a{
 	font-size:10px !important;
 	
