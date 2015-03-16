@@ -98,7 +98,7 @@
 	.footerr{
 	background:black fixed !important;
 	height:auto;
-	padding-left:3%;
+	padding-left:4%;
 	padding-top:1%;
 	padding-bottom:2%;
 	line-height:1.5;
@@ -106,8 +106,8 @@
 	}
 
 	#leftfooter{
-	width:35%  ;
-	padding-left:10% !important;
+	width:40%  ;
+	padding-left:5% !important;
 	float:left;
 	}
 	
