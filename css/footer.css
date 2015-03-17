@@ -14,11 +14,12 @@
 	.teaser{
 	
 	background:url('images/gallery/hippies1.png') no-repeat center center noscroll !important;
+	-webkit-background-size: 100% 100%; background-size:100% 100% ;background-repeat: no-repeat;height:auto;
 	}
 	
-	.teaser.section.page.desktop.fixed{
-	
-	background:url('images/gallery/openhack1.png') no-repeat center center scroll !important;
+	.teaser31{
+	background:url(../images/gallery/teaser-31.png) no-repeat  center  center noscroll !important;
+	-webkit-background-size: 100% 100%; background-size:100% 100% ;background-repeat: no-repeat;height:auto;
 	}
 	
 	#leftfooter a{
