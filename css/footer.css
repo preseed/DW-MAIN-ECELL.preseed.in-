@@ -31,6 +31,10 @@
 	font-size:10px !important;
 	
 	}
+	#rightfooter span {
+	font-size:10px !important;
+	
+	}
 	
 	#rightfooter p{
 	font-size:10px !important;
@@ -71,6 +75,10 @@
 	}
 
 	#leftfooter a{
+	font-size:12px !important;
+	
+	}
+	#leftfooter span{
 	font-size:12px !important;
 	
 	}
