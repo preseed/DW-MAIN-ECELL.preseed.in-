@@ -269,70 +269,70 @@
 	width:100% !important;
 	}
 	
-	
-	/* Add this attribute to the element that needs a tooltip */
+
+
+
+/* Add this attribute to the element that needs a tooltip */
 [data-tooltip] {
-    position: relative;
-    z-index: 2;
-    cursor: pointer;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
 }
 
 /* Hide the tooltip content by default */
 [data-tooltip]:before,
 [data-tooltip]:after {
   visibility: hidden;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    pointer-events: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
 }
 
 /* Position tooltip above the element */
 [data-tooltip]:before {
-    position: absolute;
-    bottom: 150%;
-    left: 50%;
-    margin-bottom: 5px;
-    margin-left: -175px;
-    padding: 7px;
-    width: 140px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius:    3px;
-    border-radius:         3px;
-    background-color: #2095c0;
-   /* background-color: hsla(0, 0%, 20%, 0.9);*/
-    color: #fff;
-    content: attr(data-tooltip);
-    text-align: center;
-    font-size: 14px;
-	font-size: 2.0vw;
-	font-size: 2.1vh;
-    line-height: 1.2;
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #2095c0;
+	background-color: #2095c0;
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
 }
 
 /* Triangle hack to make tooltip look like a speech bubble */
 [data-tooltip]:after {
-    position: absolute;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -105px;
-    width: 0;
-    border-top: 5px solid #000;
-    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
-    border-right: 5px solid transparent;
-    border-left: 5px solid transparent;
-    content: " ";
-    font-size: 0;
-    line-height: 0;
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
 }
 
 /* Show tooltip content on hover */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
-    visibility: visible;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
 }
 	
     </style>
@@ -809,8 +809,7 @@ window.twttr = (function (d, s, id) {
                 <br/>
 
               
-                    <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Preseed" data-url="http://preseed.in/" data-count="horizontal" data-style="twitter">Vote on Hacker News</a>
-                    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+                    
                 
               
 
@@ -835,8 +834,8 @@ window.twttr = (function (d, s, id) {
 			<li><a href="http://preseed.in/team.html" target="_blank" style="font-size:14px;">Team</a><br><li>
 			<li><a href="https://medium.com/the-preseed/about-preseed-a4836cfaa08b" target="_blank" style="font-size:14px;">About Us</a><br></li>
 			<li><a href="http://projects.preseed.in/" target="_blank" style="font-size:14px;">Preseed Projects</a><br></li>
-			<li ><span style="color:#ff005a;font-size:14px" data-tooltip="Coming soon" > All Projects</span><br /></li>
-			<li><a href="http://labs.preseed.in/" data-tooltip="Coming soon" style="font-size:14px;" target="_blank">Preseed Labs</a></li>
+			<li ><span style="color:#ff005a;font-size:14px" data-tooltip="Coming soon" data-placement="right" > All Projects</span><br /></li>
+			<li><a href="http://labs.preseed.in/"  style="font-size:14px;" target="_blank">Preseed Labs</a></li>
 		</ul>
 		</div>
 		<div id="rightfooter" style="padding:4%;">
@@ -845,10 +844,12 @@ window.twttr = (function (d, s, id) {
 		
 		<li><a class="twitter-follow-button" href="https://twitter.com/thepreseed" data-show-count="false" data-lang="en" style="font-size:0.8vw;font-size:1.6vh; width:100%;">Follow @thePreseed </a>			
        </li>
-		
+		<li style="margin-bottom:20px;"> <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Preseed" data-url="http://preseed.in/" data-count="horizontal" data-style="twitter">Vote on Hacker News</a>
+                    <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+					</li>
 		<li> <p style="font-size:14px;color:white;"><img src="images/contact.png" width="20px" height="20px" alt="contact" />Govind Garg: +91-9899535421</p></li>
 		
-		<li><p style=" font-size:14px;color:white;">To know our complete startup portfolio,<br><a href="https://angel.co/preseed" target="_blank" style="font-size:14px"> check </a> us out on Angellist <img src="images/angellist.png" height="15" width="15"/></p></li>
+		<li><p style=" font-size:14px;color:white;">To know our complete startup portfolio,<br>check us out on<a href="https://angel.co/preseed" target="_blank" style="font-size:14px">  Angel list <img src="images/angellist.png" height="15" width="15"/> </a></p></li>
 		
 		
 		</ul>
@@ -856,15 +857,15 @@ window.twttr = (function (d, s, id) {
 		
 		<div style="clear:both;" >
 		
-		<center><p style="text-align:center;"><a href="http://preseed.in/legal" target="_blank" title="" style="color:#ff005a;text-decoration:none;font-size:14px;"> Copyright © 2015 Preseed Ventures Pvt. Ltd. | All Rights Reserved</a></p></center>
+		
 	</div>
 
 
     </div>
     <!--end wrapper-->
-	
-	
-	
+	<div style="background:#000000;">
+	<center><p style="text-align:center; background:#000000"><a href="http://preseed.in/legal" target="_blank" title="" style="color:#ff005a;text-decoration:none;font-size:14px;"> Copyright © 2015 Preseed Ventures Pvt. Ltd. | All Rights Reserved</a><br /><br /></p></center>
+	</div>
 
 	<!-- <div style="background:black;width:100%;display:block;float:left;position:relative;color:white;">
 		<section style="width:35%;padding:3%;float:left;padding-left:12%;">

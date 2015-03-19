@@ -49,7 +49,7 @@
 	}
 	
 	#rightfooter{
-	width:44% !important ;
+	width:40% !important ;
 	float:right !important;
 
 	
@@ -94,13 +94,13 @@
 	}
 	
 	#leftfooter{
-	width:40% !important ;
+	width:30% !important ;
 	
 	float:left;
 	}
 	
 	#rightfooter{
-	width:42% !important ;
+	width:30% !important ;
 	float:right !important;
 
 
@@ -124,12 +124,12 @@
 
 	#leftfooter{
 	width:40%  ;
-	
+	margin-left:5%;
 	float:left;
 	}
 	
 	#rightfooter{
-	width:25% ;
+	width:20% ;
 	float:right !important;
 	font-size:14px;
 	
