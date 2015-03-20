@@ -269,6 +269,18 @@
 	width:100% !important;
 	}
 	
+    .feature {
+  max-width: 15em;
+  padding: 0 1.5em;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.mimic-feature .facebook {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
 
 
 
@@ -844,8 +856,10 @@ window.twttr = (function (d, s, id) {
 		
 		<li><a class="twitter-follow-button" href="https://twitter.com/thepreseed" data-show-count="false" data-lang="en" style="font-size:0.8vw;font-size:1.6vh; width:100%;">Follow @thePreseed </a>			
        </li>
-        <li>
+        <li  class="mimic-feature feature">
+        <div class="facebook">
                 <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="preseed" data-url="http://preseed.in/" data-count="horizontal" data-style="facebook">Vote on Hacker News</a>
+        </div>        
         </li>        
 
                     <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
