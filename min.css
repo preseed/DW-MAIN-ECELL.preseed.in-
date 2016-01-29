@@ -2204,7 +2204,7 @@ h6 {
 .section-title h6 {
     font-size: 30px;
     line-height: 35px;
-    text-align: center
+    text-align: justify;
 }
 .teaser h1 {
     font-size: 95px;
