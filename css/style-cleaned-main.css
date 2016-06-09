@@ -74,7 +74,7 @@ body{
 	
 	/*homepage*/
 	 @media all and (min-width: 1400px) {
-	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat rgba(255,39,120,1); background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
@@ -423,7 +423,7 @@ src: url('foaw/fonts/rescript.woff');
 --------------------------------------------------------*/
 
 	h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin-bottom:30px;}
-	h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{font-family: 'Open Sans', sans-serif;font-weight:normal; }
+	h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{font-family: 'Open Sans', sans-serif;font-weight:normal;letter-spacing: 2px;line-height: 160%;}
 	h3 a, h4 a, h6 a { text-decoration:none;}
 	a{
 	color: #ff005a;
@@ -432,7 +432,7 @@ src: url('foaw/fonts/rescript.woff');
     }
     .dotted
     {
-    border-bottom: 2px dotted #ff005a;
+    border-bottom: 2px solid #ff005a;
     margin-right: 10px;
     }
 	a:hover{color:#ff005a;}
