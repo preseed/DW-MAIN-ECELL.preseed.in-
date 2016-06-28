@@ -432,8 +432,14 @@ src: url('foaw/fonts/rescript.woff');
     }
     .dotted
     {
-    border-bottom: 2px solid #ff005a;
-    margin-right: 10px;
+    	border-bottom: 2px solid #ff005a;
+    	margin-right: 10px;
+    }
+    a.dotted:hover
+    {
+    	border: 0;
+    	background: #ff005a;
+    	color: #ffffff;
     }
 	a:hover{color:#ff005a;}
 	p{margin-bottom:30px;}
