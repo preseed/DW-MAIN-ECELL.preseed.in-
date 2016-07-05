@@ -118,8 +118,8 @@ body{
 
 		/* mobile menu toggle
 		----------------------------*/	
-		
-		.header .inner .mobileMenuToggle{height:26px;width:100%;float:left;text-align:center;display:none;margin:19px auto 15px auto;}
+		/* Removed - width:100%; float:left; */
+		.header .inner .mobileMenuToggle{height:26px;margin:10px;position:absolute;float:left;text-align:center;display:none;}
 		.header .inner .mobileMenuToggle a{width:26px;height:26px;float:left;position:relative;left:50%; margin-left:-13px;}
 		.header .inner .mobileMenuToggle a{background:url(../images/mobileMenu-toggle.png) center 0 no-repeat;}
 			
@@ -757,4 +757,8 @@ src: url('foaw/fonts/rescript.woff');
 			visibility: hidden;
 		}
 				
-	
+		a.navigateTo.hire{
+		color:#fff;
+		float:right;
+		padding-left:10px;
+		}
