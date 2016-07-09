@@ -90,7 +90,7 @@ body{
 }
 
       @media all and (max-width: 475px){
-	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/Nnavbarlogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 	
