@@ -23,7 +23,7 @@
 --------------------------------------------------------*/
 	
 	html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; }
-	
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700);
 	
 /*--------------------------------------------------------
 	2.COMMONS
@@ -32,7 +32,9 @@
 
 body{
 	background:#f4f4f5 url(../images/patterns/modern-triangular-light.png) top left repeat; background-attachment:scroll;
-	font:13px/18px Arial, Helvetica, sans-serif; 
+	font:13px/18px 'Open Sans', Helvetica, sans-serif; 
+	letter-spacing: 1px;
+	font-weight: 400;
 }
 	
 	.taglinehome{
@@ -72,23 +74,23 @@ body{
 	
 	/*homepage*/
 	 @media all and (min-width: 1400px) {
-	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat rgba(255,39,120,1); background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
 
     @media all and (max-width: 1399px){
-	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat rgba(255,39,120,1); background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
      @media all and (max-width: 719px){
-	.logo-homepage{width:300px;height:300px;position:fixed;left:50%;top:50%;margin:230px 0 0 -150px;-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius:200px; overflow:hidden; background:#ff2778 ; background: url(../images/Nnavbarlogo.png) center center no-repeat rgba(255,39,120,1); background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:300px;height:300px;position:fixed;left:50%;top:50%;margin:230px 0 0 -150px;-webkit-border-radius: 200px; -moz-border-radius: 200px; border-radius:200px; overflow:hidden; background:#ff2778 ; background: url(../images/Nnavbarlogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
       @media all and (max-width: 475px){
-	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/Nnavbarlogo.png) center center no-repeat rgba(255,39,120,1); background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 	
@@ -116,8 +118,8 @@ body{
 
 		/* mobile menu toggle
 		----------------------------*/	
-		
-		.header .inner .mobileMenuToggle{height:26px;width:100%;float:left;text-align:center;display:none;margin:19px auto 15px auto;}
+		/* Removed - width:100%; float:left; */
+		.header .inner .mobileMenuToggle{height:26px;margin:10px;position:absolute;float:left;text-align:center;display:none;}
 		.header .inner .mobileMenuToggle a{width:26px;height:26px;float:left;position:relative;left:50%; margin-left:-13px;}
 		.header .inner .mobileMenuToggle a{background:url(../images/mobileMenu-toggle.png) center 0 no-repeat;}
 			
@@ -421,10 +423,24 @@ src: url('foaw/fonts/rescript.woff');
 --------------------------------------------------------*/
 
 	h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif; font-weight:bold; margin-bottom:30px;}
-	h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{font-family: 'Quicksand', sans-serif;font-weight:normal; }
-	h3 a, h4 a, h6 a { text-decoration:none; border-bottom:0 !important;}
-	a{color:#ff005a;text-decoration:none;
-	text-align:center;}
+	h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{font-family: 'Open Sans', sans-serif;font-weight:normal;letter-spacing: 2px;line-height: 160%;}
+	h3 a, h4 a, h6 a { text-decoration:none;}
+	a{
+	color: #ff005a;
+    text-decoration: none;
+    text-align: center;
+    }
+    .dotted
+    {
+    	border-bottom: 2px solid #ff005a;
+    	margin-right: 10px;
+    }
+    a.dotted:hover
+    {
+    	border: 0;
+    	background: #ff005a;
+    	color: #ffffff;
+    }
 	a:hover{color:#ff005a;}
 	p{margin-bottom:30px;}
 
@@ -437,8 +453,8 @@ src: url('foaw/fonts/rescript.woff');
 	h6{font-size:24px;line-height:24px;}
 	.section-title h3,.section-title h6{margin:0;}
 	.section-title h3{font-size:85px;line-height:70px; text-align:center;}
-	.section-title h6{font-size:30px;line-height:35px; text-align:center;}
-	.teaser h4{font-size:50px;line-height:40px; text-align:center;}
+	.section-title h6{font-size:30px;line-height:35px; text-align:center;line-height: 50px;}
+	.teaser h4{font-size:50px;line-height:40px; text-align:center;line-height: 38px;}
 	.teaser h6{font-size:27px;line-height:35px; text-align:center;}
 	
 	
@@ -741,4 +757,8 @@ src: url('foaw/fonts/rescript.woff');
 			visibility: hidden;
 		}
 				
-	
+		a.navigateTo.hire{
+		color:#fff;
+		float:right;
+		padding-left:10px;
+		}

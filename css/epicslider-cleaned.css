@@ -23,7 +23,7 @@
 	/*Overlay
 	-------------------*/
 	
-	.epicSlider.theme-default #epic-overlay{position:absolute;width:100%;height:100%;background:transparent url(../images/ui_epicslider/pattern.png) repeat top left;z-index:2;}
+	.epicSlider.theme-default #epic-overlay{position:absolute;width:100%;height:100%;background: url(../images/ui_epicslider/pattern.png) repeat top left;z-index:2;}
 	
 
 	/*Slides
