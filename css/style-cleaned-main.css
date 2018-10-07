@@ -762,3 +762,9 @@ src: url('foaw/fonts/rescript.woff');
 		float:right;
 		padding-left:10px;
 		}
+
+.small_headings {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px;
+}
