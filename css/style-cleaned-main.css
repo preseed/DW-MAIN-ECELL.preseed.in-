@@ -74,13 +74,13 @@ body{
 	
 	/*homepage*/
 	 @media all and (min-width: 1400px) {
-	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:360px;height:360px;position:fixed;left:49.2%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/preseed_app.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
 
     @media all and (max-width: 1399px){
-	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:360px;height:360px;position:fixed;left:50%;top:50%;margin:-180px 0 0 -180px;-webkit-border-radius: 250px; -moz-border-radius: 250px; border-radius:250px; overflow:hidden; background:#ff2778 ; background: url(../images/preseed_app.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 
@@ -90,7 +90,7 @@ body{
 }
 
       @media all and (max-width: 475px){
-	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/Nblackbacklogo.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
+	.logo-homepage{width:150px;height:150px;position:fixed;left:50%;top:50%;margin:-170px 0 0 -80px;-webkit-border-radius: 150px; -moz-border-radius: 150px; border-radius:150px; overflow:hidden; background:#ff2778 ; background: url(../images/preseed_app.png) center center no-repeat transparent; background-attachment:fixed; z-index:3;}
 	.logo-homepage a{width:100%;height:100%; float:left;}
 }
 	
@@ -772,6 +772,9 @@ src: url('foaw/fonts/rescript.woff');
 @media only screen and (min-width: 768px){
 	#story_sofar_sec {
 		padding-top: 9%;
+	}
+	.each_desc {
+		padding-top: 5%;
 	}
 }
 #subscribe_text {
