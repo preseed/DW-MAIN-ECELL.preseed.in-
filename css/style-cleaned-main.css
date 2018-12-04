@@ -363,13 +363,13 @@ src: url('foaw/fonts/rescript.woff');
 		-webkit-transition:background-image 0.8s;
 		
 		}
-		.a2:hover{
+/*		.a2:hover{
 		background-image:url('../ver1/images/gallery/weblab.png') !important;
 		background-position:center;
 	
 		
 		}
-		.a3{
+*/		.a3{
 		background-image:url('../images/gallery/sessions.jpg'); !important
 		background-position:center;
 		transition:background-image 0.8s;
