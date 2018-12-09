@@ -65,7 +65,7 @@ body{
 		
 		/*even*/
 		.page.even{color:#888;}
-	
+		.below_cover{max-width:930px;margin:auto;position:relative;}
 	
 
 	/*----------------------------
