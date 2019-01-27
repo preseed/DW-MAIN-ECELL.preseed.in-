@@ -100,8 +100,7 @@ $(document).ready(function() {
 		}
 	});
 });
-<!--mailchimp-->
-<script type="text/javascript">
+// mailchimp
 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
 try {
 var jqueryLoaded=jQuery;
@@ -291,4 +290,4 @@ $('#mce-'+resp.result+'-response').html(msg);
 }
 }
 
-<!--codeends-->
+// codeends

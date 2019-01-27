@@ -967,14 +967,14 @@ src: url('foaw/fonts/rescript.woff');
   /*new divs*/
   
     .a2{
-    background-image:url('../ver1/images/gallery/weba.jpg'); !important
+    background-image:url('../images/main/weba.jpg'); !important
     background-position:center;
     transition:background-image 0.8s;
     -webkit-transition:background-image 0.8s;
     
     }
     .a2:hover{
-    background-image:url('../ver1/images/gallery/weblab.png') !important;
+    background-image:url('../images/main/weblab.png') !important;
     background-position:center;
   
     
