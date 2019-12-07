@@ -18,6 +18,14 @@ body {
   outline: 0;
 }
 
+@media (max-width: 995px) {
+.textalignleft
+{
+    text-align: left!important;
+    padding: 20px;
+}
+}
+
 .navbar-custom,
 .navbar-brand,
 .navbar-toggle {
