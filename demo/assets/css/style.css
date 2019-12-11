@@ -405,9 +405,9 @@ ul.links {
   #we_inspire_h {
     margin:90px auto 20px;
   }
-  .logo img{
+/*  .logo img{
     margin: 10vh auto 20vh;
-  }
+  }*/
 }
 }
 
@@ -632,7 +632,7 @@ ul.links {
 	
 	.homepage,.page{position:relative;overflow:hidden; z-index:1;}
 	.page.desktop{position:relative !important; z-index:6;}
-	.page{padding-top:100px;}
+	.page{padding-top:20px;}
 		.page .content{max-width:1000px;margin:auto;position:relative; padding-bottom:100px;}
 	.page.odd{background:#f4f4f5 url(../img/patterns/modern-triangular-light.png) top left repeat; background-attachment:scroll;}
 	.page.even{background:#111 url(../img/patterns/modern-triangular-dark.png) top left repeat; background-attachment:scroll;}
