@@ -788,3 +788,11 @@ strong.green {
     background: #138808;
     padding: 0 3px;
 }
+.acc{
+  width: 63%;
+}
+@media only screen and (max-width:750px){
+ .acc{ 
+   width: 90%;
+ }
+}
