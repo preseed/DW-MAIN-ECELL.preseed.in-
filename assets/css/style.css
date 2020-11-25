@@ -791,8 +791,16 @@ strong.green {
 .acc{
   width: 63%;
 }
+.gf{
+  margin-left: 36%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 @media only screen and (max-width:750px){
  .acc{ 
    width: 90%;
  }
+ .gf{
+  margin-left: 1%;
+}
 }
