@@ -682,6 +682,68 @@
                         Add: Next to Khamjai Mata Temple, Shirgaon - Vadrai Road, Maharashtra 401404<br>
 			    Location Map >> <a href="https://maps.app.goo.gl/9jDWCRuf9cKFr6HB6" target="_blank"> Click Me :) </a></p>
                     </div>
+			  
+<!-- Easy Forms -->
+<link href="https://www.spareform.com/static_files/css/form.popup.min.css" rel="stylesheet" type="text/css">
+<style>
+    .ef-modal {
+        background: rgba(0, 0, 0, 0.75) !important; /* Overlay color */
+    }
+    .ef-modal-box {
+        margin: 60px auto !important; /* Pop-Up margin */
+        padding: 20px !important; /* Pop-Up pading */
+        width: 60% !important; /* Pop-Up width */
+        border-radius: 10px !important; /* Pop-Up radius */
+        background: rgb(255, 255, 255) !important; /* Pop-Up background */
+
+        /** Animation duration **/
+        -webkit-transition: all 0.6s !important;
+        -moz-transition: all 0.6s !important;
+        -o-transition: all 0.6s !important;
+        transition: all 0.6s !important;
+    }
+</style>
+<div class="ef-btn-wrapper">
+    <button class="ef-button ef-button-success ef-button-inline-placement">Are you excited to book your space?</button>
+</div>
+<div id="ef-content">
+    <div id="c33" class="ef-content">
+        Fill out my <a href="https://www.spareform.com/app/form?id=33">online form</a>.
+    </div>
+    <script type="text/javascript">
+        (function(d, t) {
+            var s = d.createElement(t), options = {
+                'id': 33,
+                'container': 'c33',
+                'height': '1267px',
+                'form': '//www.spareform.com/app/embed'
+            };
+            s.type= 'text/javascript';
+            s.src = 'https://www.spareform.com/static_files/js/form.widget.js';
+            s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { (new EasyForms()).initialize(options).display() } catch (e) { }
+            };
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');
+    </script>
+</div>
+<script src="//www.spareform.com/static_files/js/form.popup.min.js"></script>
+<script type="text/javascript">
+    var modal = new EasyForms.Modal({
+        autoOpen: false,
+        cssClass: ['ef-effect-fade-in']
+    });
+    var btn = document.querySelector('.ef-button');
+    btn.addEventListener('click', function(){
+        modal.open();
+    });
+    modal.setContent(document.getElementById('ef-content'));
+</script>
+<!-- End Easy Forms -->
+
+			  
+			  
                   </center>
                 </div>
               </div>
