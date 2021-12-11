@@ -249,7 +249,7 @@ blockquote.headline {
 }
 .panel-default {
   position: relative;
-  top: 31px;
+/*   top: 31px; */
 }
 .summary3 {
   font-size: 1.5rem;
