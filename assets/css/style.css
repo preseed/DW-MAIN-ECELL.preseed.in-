@@ -354,8 +354,12 @@ ul.links {
 
 #we_inspire_h {
   margin:150px auto 20px;
-  text-align: center; 
+  text-align: left; 
   color: #fff;
+  margin-left: 30px;
+}
+#guruji-quote{
+  font-size:27px;
 }
 .sub_quote {
   color:#fff;
