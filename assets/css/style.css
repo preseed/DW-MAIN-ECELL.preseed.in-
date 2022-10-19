@@ -29,7 +29,7 @@ html,body
     color-stop(7000, #23252b)
   );
   /*background-color: #000;*/
-  background: url(../img/hippies.jpg) no-repeat;
+  background: url(../images/guruji-smiling.jpg) no-repeat;
   background-attachment: fixed;
   position: relative;
   background-position: center;
