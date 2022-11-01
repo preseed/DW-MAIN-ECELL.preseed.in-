@@ -86,7 +86,7 @@ details > summary::after {
 }
 .intro {
   width: 100%;
-  height: 80rem;
+  height: 90rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
@@ -472,6 +472,21 @@ ul.links {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#socialmedia{
+  width:50%;
+  margin-left:-18%;
+  margin-top:-100rem;
+}
+#socialmedia ul li img{
+  width:3rem;
+  height:auto;
+
+}
+#socialmedia ul li{
+  padding:3rem;
+}
+
 /*Navigation*/
 .navbar-custom {
   margin-bottom: 0;
