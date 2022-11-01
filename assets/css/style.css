@@ -473,11 +473,8 @@ ul.links {
   padding-right: 10px;
 }
 
-#socialmedia{
-  width:50%;
-  margin-left:-18%;
-  margin-top:-100rem;
-}
+
+
 #socialmedia ul li img{
   width:3rem;
   height:auto;
@@ -485,6 +482,7 @@ ul.links {
 }
 #socialmedia ul li{
   padding:3rem;
+  display:inline-block;
 }
 
 /*Navigation*/
