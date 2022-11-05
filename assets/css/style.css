@@ -691,6 +691,9 @@ ul.links {
   top: 0;
   position: absolute;
 }
+.sm-links a{
+  padding:6px;
+}
 .sm-links a:hover{
   color:;
 }
