@@ -20,13 +20,19 @@ html,body
   height:100%;
   
 }
+
+@media only screen and(max-width:1100px;){
+.col-md-4{
+  margin-left:30%;
+}
+}
 .container123{
   display: none;
   position:absolute;
   top: 82%;
   left:50%;
   transform:translate(-50%,-50%);
-  background:#f5ab35;
+  background:#ffdf1d;
   width:100%;
   height: 30%;
   align-items: center;
@@ -89,16 +95,22 @@ input[type="checkbox"]{
 .accordion-toggle:hover{
   color: #000 !important;
 }
+.navbar-toggle:hover{
+  color:#ffdf1d;
+}
 @media only screen and (max-width: 600px){
-  .navbar-custom, .navbar-brand, .navbar-toggle {
+  .navbar-custom, .navbar-brand {
   padding: 4px 6px;
   font-size: 16px;
   color: #fff;
   width: 100%;
 }
+.second-body .eduinco .noshowgurukul{
+  width:80%;
+}
 }
 @media only screen and (max-width:667px){
-  .navbar-custom, .navbar-brand, .navbar-toggle {
+  .navbar-custom, .navbar-brand {
   padding: 4px 6px;
   font-size: 16px;
   color: #fff;
@@ -591,7 +603,7 @@ ul.links {
 
 .navbar-custom .nav li a:hover {
   outline: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffdf1d;
   background-color: transparent;
 }
 
@@ -649,8 +661,9 @@ ul.links {
   .sm-links {
     float: right;
     position: relative !important;
-    padding-top: 13px !important;
+    padding-top: 10px !important;
   }
+ 
   #we_inspire_h {
     margin:90px auto 20px;
   }
@@ -658,17 +671,28 @@ ul.links {
     margin: 10vh auto 20vh;
   }*/
 }
+@media only screen and (max-width:990px;){
 
+
+}
 
 .font-l {
   font-size: large;
 }
-
+.col-lg-9 ul li a{
+  padding: 10px;
+}
+.col-lg-9 ul{
+  
+}
 .sm-links {
   padding: 10px;
   right: 0;
   top: 0;
   position: absolute;
+}
+.sm-links a:hover{
+  color:;
 }
 .color_text {
   color: #fff;
@@ -755,6 +779,11 @@ ul.links {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #2095c0;
 
+}
+@media only screen and (max-device-width: 869px){
+  .col-lg-9 ul{
+    margin-left: -20%;
+  }
 }
 /*footer*/
 #footer_home {
