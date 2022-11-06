@@ -693,6 +693,7 @@ ul.links {
 }
 .sm-links a{
   padding:6px;
+  font-size: 20px;
 }
 .sm-links a:hover{
   color:;
