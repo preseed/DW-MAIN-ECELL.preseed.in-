@@ -1173,3 +1173,11 @@ details > summary::-webkit-details-marker {
   border-radius: 10px;
   padding: 15px;
 }
+@media only screen and (max-width:1150px) {
+ .col-lg-9 ul {
+  margin-right: 50px;
+ }
+}
+.col-lg-10.col-md-10.col-xs-12.col-centered center center a:hover{
+ color:#ffdf1d;
+}
