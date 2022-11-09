@@ -65,7 +65,7 @@ input[type="checkbox"]{
 .show-btn123{
   background:#F8CF3B;
   padding: 10px 20px;
-  font-size:10px;
+  font-size:1.3rem;
   position:absolute;
   top:83%;
   left:50%;
@@ -74,6 +74,8 @@ input[type="checkbox"]{
   cursor:pointer;
   font-weight: 500;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  width:65%;
+  height:40px;
 }
 .show-btn123:hover{
   background-color:#dfb623;
