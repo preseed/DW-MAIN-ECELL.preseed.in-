@@ -442,11 +442,13 @@ blockquote.headline {
 .top_logo p
 {
     font-family: "Montserrat";
-    line-height: 115%;
+    line-height: 100%;
     padding-left: 50px;
     font-size: 1.6em;
     letter-spacing: 1px;
     color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
 }
 .top_logo:hover{
   background-color: rgba(205, 199, 199, 0.123);
