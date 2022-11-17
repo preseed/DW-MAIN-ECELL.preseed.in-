@@ -64,28 +64,28 @@ input[type="checkbox"]{
 }
 
 .show-btn123{
-  background:#F8CF3B;
-  padding: 10px 20px;
-  font-size:1.3rem;
-  position:absolute;
-  top:83%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  border-radius:15px;
-  cursor:pointer;
-  font-weight: 500;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-  width:65%;
-  height:40px;
+  width: 269px;
+  height: 59px;
+  border-radius: 58px 58px 58px 58px;
+  font-size: 21px;
+  margin-top:-30px ;
+  background-color:#ffdf1d;
+}
+.show-btn123 p{
+  text-align: center;
+  color:#fff;
+  vertical-align: middle;
+  margin-top: 13px;
 }
 .show-btn123:hover{
-  background-color:#dfb623;
+  background-color:#e2e23a;
   border-color: #6a5507;
   border: 3px;
 }
 #show123:checked ~ .container123{
   display:block;
 }
+
 /*booking form style end*/
 #yellow-part{
   background-color: #F8CF3B;
