@@ -428,7 +428,7 @@ blockquote.headline {
 }
 .top_logo
 {
-    background-image: url(../../Todoed/assets/images/td.svg);
+    background-image: url(../images/td.svg);
     background-repeat: no-repeat;
     background-size: 42px;
     height: 52px;
