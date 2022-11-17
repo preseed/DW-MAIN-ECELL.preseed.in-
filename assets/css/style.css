@@ -62,7 +62,15 @@ input[type="checkbox"]{
 .container123 .close-btn123:hover{
   color:#Fff;
 }
-
+.show-btn1234{
+  width: 269px;
+  height: 39px;
+  border-radius: 58px 58px 58px 58px;
+  font-size: 21px;
+  margin-top:30px ;
+  background-color:#ffdf1d;
+  margin-top: -80px;
+}
 .show-btn123{
   width: 269px;
   height: 59px;
@@ -418,7 +426,31 @@ blockquote.headline {
   width: 138%;
   right: 19%;
 }
-
+.top_logo
+{
+    background-image: url(../../Todoed/assets/images/td.svg);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    height: 52px;
+    width: 156px;
+    line-height: 42px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.top_logo p
+{
+    font-family: "Montserrat";
+    line-height: 115%;
+    padding-left: 50px;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.top_logo:hover{
+  background-color: rgba(205, 199, 199, 0.123);
+}
 .summary3:hover,
 .yel-b:hover {
   color: #000 !important;
@@ -689,17 +721,21 @@ ul.links {
   
 }
 .sm-links {
-  padding: 10px;
+  padding: 25px;
   right: 0;
   top: 0;
   position: absolute;
 }
-.sm-links a{
-  padding:6px;
-  font-size: 20px;
+.sm-links ul li a{
+  
+  text-decoration: none;
+  padding: 3px;
 }
-.sm-links a:hover{
-  color:;
+.sm-links ul{
+  list-style: none;
+}
+.sm-links ul li {
+  display: inline-block;
 }
 .color_text {
   color: #fff;
