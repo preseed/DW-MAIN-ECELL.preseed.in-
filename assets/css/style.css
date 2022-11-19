@@ -726,7 +726,7 @@ ul.links {
 .sm-links {
   padding: 25px;
   right: 0;
-  top: 0;
+  top: -14px;
   position: absolute;
 }
 .sm-links ul li a{
@@ -1215,8 +1215,4 @@ details > summary::-webkit-details-marker {
   border-radius: 10px;
   padding: 15px;
 }
-@media only screen and (max-width:1150px) {
- .col-lg-9 ul {
-  margin-right: 50px;
- }
-}
+
