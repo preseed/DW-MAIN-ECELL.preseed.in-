@@ -696,11 +696,7 @@ ul.links {
   .menu_img {
     padding-left: 10px;
   }
-  .sm-links {
-    float: right;
-    position: relative !important;
-    top: 5!important;
-  }
+  
  
   #we_inspire_h {
     margin:90px auto 20px;
@@ -709,10 +705,8 @@ ul.links {
     margin: 10vh auto 20vh;
   }*/
 }
-@media only screen and (max-width:990px;){
 
 
-}
 
 .font-l {
   font-size: large;
