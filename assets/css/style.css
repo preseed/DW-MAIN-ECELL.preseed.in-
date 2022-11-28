@@ -172,6 +172,14 @@ details > summary::after {
   margin-bottom: 10px;
       width: 67%;
 }
+.nav li #our:hover{
+  color: #ffdf1d;
+  cursor: pointer;
+}
+.nav li #our a:hover{
+  color:#ffdf1d;
+  cursor: pointer;
+} 
 .intro {
   width: 100%;
   height: 90rem;
