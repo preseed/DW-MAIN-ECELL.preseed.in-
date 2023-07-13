@@ -1285,3 +1285,20 @@ details > summary::-webkit-details-marker {
 .guruji-gif{
   width: 300px;
 }
+
+.noshowinsta{
+  color: white;
+}
+
+.noshowinsta:hover{
+  color: #ffbf1b;
+}
+
+.guruji-insta{
+  position: relative;
+}
+
+.guruji-insta svg{
+  position: absolute;
+  top:3px;
+}
