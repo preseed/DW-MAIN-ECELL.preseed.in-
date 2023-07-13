@@ -303,7 +303,7 @@
       <div class="faq__content" id="summary-content" style="background-color: #000;color:#F8CF3B; text-align: left;">
         <center><img src="assets/images/Whoweare.png" alt=""></center>
   
-        <p style="font-size: 16px;">The <a href="#team">Preseed EA team</a> is made up of Guruji's students and a group of experienced tech professionals. Together, we have a diverse portfolio of skills and expertise, ranging from software development and data analysis to project management and marketing. <br><br>
+        <p style="font-size: 16px;">The <a href="#team" class="smooth-scroll">Preseed EA team</a> is made up of Guruji's students and a group of experienced tech professionals. Together, we have a diverse portfolio of skills and expertise, ranging from software development and data analysis to project management and marketing. <br><br>
 
           We are united by our passion for Gyan Yoga and our commitment to using technology to make a positive impact in the world. We believe that our unique combination of knowledge and experience makes us uniquely suited to assist Guruji in his mission.
           </p>
@@ -2129,6 +2129,33 @@ His world of education includes communication and collaboration between people c
         </a>
       </div>
     </section>
+    <script>
+window.addEventListener('DOMContentLoaded', (event) => {
+  const links = document.querySelectorAll('div a');
+
+  for (const link of links) {
+    link.addEventListener('click', clickHandler);
+  }
+
+  function clickHandler(e) {
+    const href = this.getAttribute('href');
+
+    // Check if href starts with '#' (an internal link)
+    if (href.startsWith('#')) {
+      e.preventDefault();
+
+      const offsetTop = document.querySelector(href).offsetTop;
+
+      scroll({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+
+    // If not an internal link, allow the default action
+  }
+});
+</script>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
