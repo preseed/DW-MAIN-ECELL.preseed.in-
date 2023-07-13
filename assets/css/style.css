@@ -1288,6 +1288,7 @@ details > summary::-webkit-details-marker {
 
 .noshowinsta{
   color: white;
+  font-size: 18px;
 }
 
 .noshowinsta:hover{
