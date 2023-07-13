@@ -205,6 +205,7 @@ details > summary::after {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
 }
 /*Startup c0ver image*/
 .sheep_cover_hippies {
@@ -1218,3 +1219,17 @@ details > summary::-webkit-details-marker {
   padding: 15px;
 }
 
+.meet-guruji{
+  max-width: 700px;
+  min-width: 250px;
+  text-align: justify;
+  height: auto;
+  padding: 25px;
+  z-index: 1000000000000;
+}
+
+.preseedea-logo{
+  width: 500px;
+  height: auto;
+  margin: 0 auto 30px auto;
+}
