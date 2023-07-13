@@ -1257,7 +1257,11 @@ details > summary::-webkit-details-marker {
   }
 
   .faq__content p{
-    width: 210px !important;
+    width: 260px !important;
+  }
+
+  .faq__content{
+    width: 90%;
   }
 }
 
