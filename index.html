@@ -507,6 +507,10 @@ However, since this page is for our own personal network of people, who earn in 
   <br><br>
   <div class="row" align="center">
       <div style="text-align: center;color:#fff;" id="caption">
+          <h2>Our Guruji</h2><br><br><video src="assets/video-gifs/hero-section-video.mp4" autoplay loop muted playsinline class="guruji-gif" ></video><br><br><br><br>
+
+
+
           <h2>Our Team</h2>
           <br><br>
           <div class="row clearfix" style="padding-bottom:10px; " align="center">
@@ -518,7 +522,7 @@ However, since this page is for our own personal network of people, who earn in 
                           alt="Manu Narayanan">
                   </div>
                   <div class="col-md-8">
-                      <span><b>Manu Narayanan</b></span>
+                      <span><b style="color: #ff005a;font-size: 1.2em;">Manu Narayanan</b></span>
                       <br>
                       <span style="  color: #FFFFFF; font-size: 1.2em;text-align: left;">(Shishya and HeadEA)</span>
                       <br><br>
@@ -2125,7 +2129,26 @@ His world of education includes communication and collaboration between people c
         </a>
       </div>
     </section>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+      const links = document.querySelectorAll('div a');
 
+      for (const link of links) {
+        link.addEventListener('click', clickHandler);
+      }
+
+      function clickHandler(e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        const offsetTop = document.querySelector(href).offsetTop;
+
+        scroll({
+          top: offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    });
+    </script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
       </script>

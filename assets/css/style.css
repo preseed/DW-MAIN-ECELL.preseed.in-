@@ -1247,21 +1247,37 @@ details > summary::-webkit-details-marker {
   .col-md-8{
     text-align: center !important;
   }
+
+  .guruji-gif{
+    width: calc(100% - 30px);
+  }
+
+  .faq__content img{
+    width: 100% !important;
+  }
+
+  .faq__content p{
+    width: 210px !important;
+  }
 }
 
 .summary-small{
   width: 320px;
 }
 
-.summary-small p{
-  width: 300px;
+.faq__content p{
+  width: 600px;
   margin: 0 auto 20px auto;
   padding: 10px;
 }
 
 .faq__content img{
-  width: 60%;
+  width: 40%;
   height: auto;
   margin: 10px auto 20px auto;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+
+.guruji-gif{
+  width: 300px;
 }
