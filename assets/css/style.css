@@ -152,7 +152,7 @@ input[type="checkbox"]{
   position: relative;
   border-radius: 10px;
   text-align: center;
-      width: 73%;
+      width: 10%;
   padding: 10px;
 }
 summary{
@@ -160,7 +160,7 @@ summary{
 }
 }
 details > summary::after {
-  position: absolute;
+  position: ;
   content: "+";
   left: 7px;
 }
@@ -1176,18 +1176,18 @@ details[open] summary ~ * {
   }
 }
 details > summary::after {
-  position: absolute;
+  position: ;
   content: "+";
   left: 20px;
 }
 details > .iconbtn::after {
-  position: absolute;
+  position: ;
   content: "+";
   left: 20px;
   top: 15px;
 }
 details[open] > summary::after {
-  position: absolute;
+  position: ;
   content: "-";
   left: 20px;
 }
@@ -1232,4 +1232,31 @@ details > summary::-webkit-details-marker {
   width: 500px;
   height: auto;
   margin: 0 auto 30px auto;
+}
+
+@media screen and (max-width: 400px){
+  .summary-small{
+    width: 320px;
+  }
+
+  .preseedea-logo{
+    width: 300px;
+  }
+}
+
+.summary-small{
+  width: 320px;
+}
+
+.summary-small p{
+  width: 300px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+}
+
+.faq__content img{
+  width: 60%;
+  height: auto;
+  margin: 10px auto 20px auto;
+  border-radius: 30px;
 }
