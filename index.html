@@ -2129,26 +2129,7 @@ His world of education includes communication and collaboration between people c
         </a>
       </div>
     </section>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-      const links = document.querySelectorAll('div a');
 
-      for (const link of links) {
-        link.addEventListener('click', clickHandler);
-      }
-
-      function clickHandler(e) {
-        e.preventDefault();
-        const href = this.getAttribute('href');
-        const offsetTop = document.querySelector(href).offsetTop;
-
-        scroll({
-          top: offsetTop,
-          behavior: 'smooth'
-        });
-      }
-    });
-    </script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
       </script>
